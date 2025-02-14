@@ -1,0 +1,18 @@
+ShiXuProject/
+¦-- ShiXuProject.Api/          # Presentation Layer (Entry point)
+¦   +-- Program.cs
+¦
+¦-- ShiXuProject.Application/  # Application Layer (Business logic coordination)
+¦   +-- Services/
+¦   ¦   +-- AuthService.cs
+¦
+¦-- ShiXuProject.Domain/       # Domain Layer (Core business logic)
+¦   +-- Entities/
+¦   ¦   +-- User.cs
+¦   +-- Services/
+¦   ¦   +-- IAuthenticator.cs
+¦   ¦   +-- Authenticator.cs
+¦
+¦-- ShiXuProject.Infrastructure/ # Infrastructure Layer (External dependencies)
+¦   +-- Controllers/
+¦   ¦   +-- LoginController.cs
